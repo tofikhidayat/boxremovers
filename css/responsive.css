@@ -1,0 +1,653 @@
+@media screen and (max-width:768px)
+{
+*{margin: 0px;padding:0px;}
+.container
+{
+	max-width: 90%;
+	overflow: hidden;
+}
+
+header
+{
+	position: relative;
+}
+header .container .logo
+{
+	float: left;
+	width: auto;
+	margin-left: 10PX;
+	padding-top: 10PX;
+	height: 80px;
+	border-right: none;
+	position: absolute;
+
+}
+header .container .logo img
+{
+	float: left;
+	height: 60%;
+	margin: 10px 0px 0px 0%;  
+}
+header .container .menu
+{
+	float: none;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 10px;
+}
+header .container .menu nav a:nth-child(1)
+{
+	color: #7aa814;
+}
+header .container .menu label
+{
+	line-height: 60px;
+	color: #7aa814;
+	font-size: 25px;
+	float: right;
+	display: block;
+	cursor: pointer;
+	margin-right: 65px;
+	z-index: 88;
+}
+header .container .menu .nav ul li
+{
+	list-style: none;
+	float: none;
+}
+header .container .menu .nav2
+{
+	width:65%;
+	margin-top: 0px;
+	display: none;
+	visibility: hidden;
+}
+header .container .menu .nav
+{
+	width: 80%;
+	display: none;
+	position:relative;
+	margin: 10px 10%;
+	background: white;
+	float: right;
+	border-top: 3px solid #7aa814;
+	box-shadow: 0px 2px 5px rgba(0,0,0,.1);
+	padding-bottom: 40px;
+	border-radius: 0 0 3px 3px;
+}
+header .container .menu .nav ul li:nth-child(1) a
+{
+	color: #616161;
+}
+header .container .menu .nav a
+{
+	font-weight: normal;
+	font-size: 16px;
+	width: 90%;
+	display: block;
+	text-align: left;
+	padding: 0px 0px;
+	text-decoration: none;
+	line-height: 50px;
+	margin: 0 auto;
+	color:#616161;
+	border-bottom: .5px solid rgba(0,0,0,.3);
+
+}
+
+header .container .menu #toggle:checked + .nav
+{
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+header .container .menu .try
+{
+	visibility: hidden;
+	display: none;
+}
+content .space
+{
+	height: 30px;
+}
+content .banner 
+{
+	height:auto;
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 90px;
+}
+content .banner .box
+{
+	width: 100%;
+	height: auto;
+}
+content .banner .box img
+{
+	width: 45%;
+	height: auto;
+	padding-top: 0px;
+	margin-right: 27.5%;
+}
+content .banner .collect
+{
+	width: 100%;
+	padding-top: 25px;
+}
+content .banner .collect h1
+{
+	font-weight: bold;
+	color: #5E5E5E;
+	text-align: left;
+	font-size: 23px;
+	width: 100%;
+	padding-top: 0px;
+	padding-left: 10px;
+	margin-left: 0%;
+}
+content .banner .collect p
+{
+	font-weight: normal;
+	color: #5E5E5E;
+	width: 100%;
+	margin: 0 1%;
+	padding-top: 0px;
+	text-align: left;
+	font-size: 13px;
+	line-height: 20px;
+}
+content .banner .collect button
+{
+	box-shadow: 0px 4px 6px rgba(50,50,93,.11);
+	border-radius: 50px;
+	padding: 8px 20px;
+	background: #7aa814;
+	font-size:17px;
+	text-align: center;
+	margin-left: 0%;
+	float: left;
+	margin-top: 20px; 
+	border:none;
+	display: block;
+	color: #fff;
+
+}
+content .banner .collect button:hover
+{
+	box-shadow: 0px 4px 6px rgba(50,50,93,.11);
+	border-radius: 50px;
+	padding: 8px 20px;
+	background: #7aa814;
+	font-size:17px;
+	text-align: center;
+	float: left;
+	margin-top: 20px; 
+	border:none;
+	background: #618710;
+	transition: .4s ease;
+	display: block;
+	color: #D6D6D6;
+
+}
+content .article
+{
+	height: auto;
+	width: 100%;
+	position: relative;
+	background: #73A800;
+	z-index: 4;
+	padding-top: 10px;
+}
+content .article .recyle
+{
+	float: left;
+	width: 100%;
+}
+content .article .recyle h3
+{
+	color: #fff;
+	text-align: left;
+	margin: 0 auto;
+	font-size: 23px;
+	font-weight: normal;
+	width: 100%;
+}
+content .article .recyle p
+{
+	color: #fff;
+	text-align: left;
+	padding-right: 25px;
+	width: 100%;
+	line-height: 20px;
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 1.6;
+}
+content .article .video
+{
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+}
+content .article .video .video
+{
+	height: auto;
+	width: 75%;
+	margin: 0 7%;
+	border: 25px solid #fff;
+	border-radius: 5px;
+
+}
+content .cardboard
+{
+	height: auto;
+	width: 100%;
+	padding-top: 110px;
+	padding-bottom: 25px;
+	margin-top: 0;
+}
+content .cardboard .container .desktop
+{
+	float: left;
+	width: 100%;
+}
+content .cardboard .container .desktop img:nth-child(2)
+{
+display: block;
+margin: 0 10%;
+width: 80%;
+}
+content .cardboard .container .desktop img
+{
+	width: 75%;
+	display: none;
+
+}
+content .cardboard .container .truck
+{
+	width: 100%;
+	float: left;
+	padding-top: 20px;
+}
+content .cardboard .container .truck img
+{
+width: 80%;
+margin: 0 10%;
+padding-bottom: 50px;
+}
+content .works 
+{
+height: auto;
+width: 100%;
+padding-bottom: 150px;
+}
+content .works .container .our-works
+{
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	text-align: left;
+}
+content .works .container .our-works h4
+{
+	font-size: 25px;
+	color: #5E5E5E;
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+content .works .container .our-works p:last-child
+{
+	margin-top: 10px;
+}
+content .works .container .our-works p
+{
+	font-size: 14px;
+	margin-top: 15px;
+	width: 100%;
+	margin: 0 auto;
+	color: #5E5E5E;
+	line-height: 1.6;
+}
+content .works .container .list-item
+{
+	height: auto;
+	width: 90%;
+	margin: 0 1%;
+	padding-top: 25px;
+}
+content .customer
+{
+	height: auto;
+	width: 100%;
+	position: relative;
+	background: #73A800;
+	z-index: 4;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+content .customer .container .cover
+{
+width: 100%;
+height: 90%;
+float: left;
+}
+content .customer .container .cover .frame
+{
+background: #fff;
+
+width: 90%;
+margin: 0 5%;
+padding-bottom: 60px;
+border-radius: 4px;
+margin-top: 20px;
+height: auto;
+}
+.customer .container h6
+{
+	width: 100%;
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	font-weight: normal;
+}
+content .customer .container .contact .left
+{
+	width: 90%;
+	height: auto;
+	float: left;
+	color: #fff;
+	margin: 0 5%;
+	font-size: 24px;
+	text-align: left;
+	padding-top: 20px;
+}
+content .customer .container .contact .right
+{
+	width: 90%;
+	height: auto;
+	float: left;
+	margin: 0 5%;
+	padding-top: 20px;
+}
+content .customer 	.container .contact .right button:nth-child(2)
+{
+	margin-left: 10%;
+}
+content .customer .container .contact .right button
+{
+	height: 42px;
+	width: 42%;
+	background: #3e464c;
+	  font-size: 17px;
+	  color: #fff;
+	  float: left;
+	  border: none;
+	  border-radius: 50px;
+}
+content .customer .container .contact .right button:nth-child(2)
+{
+	float: right;
+	
+}
+content .customer .container .cover .frame
+{
+background: #fff;
+width: 90%;
+min-height: 130px;
+border-radius: 4px;
+margin-top: 20px;
+box-shadow: 0 15px 35px rgba(50,50,93,.1);
+padding: 0 0 20px 0;
+}
+footer h6
+{
+	float:none;
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+	margin-top: 10px;
+
+}
+content .customer .container .cover .frame p
+{
+	color: #5E5E5E;
+	width: 80%;
+}
+content .works .container .list-item div .right h5
+{
+	font-size:18px;
+}
+content .works .container .list-item div .right p
+{
+	font-size: 14px;
+	line-height: 1.6;
+}
+}
+@media screen and (max-width: 1024px)
+{
+	.container
+	{
+		max-width: 90%;
+	}
+}
+@media screen and (max-width: 484px)
+{
+	content .works .container .list-item
+{
+	height: auto;
+	width: 90%;
+	margin-top: 40px;
+	margin: 0 7%;
+}
+	content .customer .container .contact .right button:nth-child(2)
+{
+	margin-left: 0%;
+	margin: 0 5%;
+	margin-top: 20px;
+}
+content .customer .container .contact .right button
+{
+	height: 42px;
+	width: 90%;
+	background: #3e464c;
+	  font-size: 17px;
+	  color: #fff;
+	  float: left;
+	  border: none;
+	  border-radius: 50px;
+	  margin: 0 5%;
+}
+	content .customer .container .contact .right button:nth-child(2):hover
+{
+	margin-left: 0%;
+	margin: 0 5%;
+	margin-top: 20px;
+}
+content .customer .container .contact .right button:hover
+{
+	height: 42px;
+	width: 90%;
+	background:#fff ;
+	  font-size: 17px;
+	  color: #3e464c;
+	  float: left;
+	  border: none;
+	  border-radius: 50px;
+	  margin: 0 5%;
+}
+header .container .menu .nav ul li
+{
+	list-style: none;
+	float: none;
+}
+header .container .menu .nav
+{
+	width: 80%;
+	display: none;
+	position:relative;
+	background: white;
+	margin: 10px 10% 0 10%;
+	float: right;
+	border-top: 3px solid #7aa814;
+	box-shadow: 0px 2px 5px rgba(0,0,0,.1);
+	padding-bottom: 40px;
+	border-radius: 0 0 3px 3px;
+}
+content .banner .box img
+{
+	width: 60%;
+	height: auto;
+	padding-top: 0px;
+	margin-right: 20%;
+	margin-top: -0px;
+
+}
+}
+
+@media screen and (max-width: 400px)
+{
+	.container
+{
+	max-width: 90%;
+	overflow: hidden;
+}
+
+header
+{
+	position: relative;
+	width: 100%;
+}
+	header .container .logo
+{
+	float: left;
+	width: 30%;
+	height: 80px;
+	border-right: none;
+	position: absolute;
+}
+header .container .menu
+{
+	float: left;
+	width: 100%;
+	height: 100%;
+	padding: 0px ; 
+	margin:0px;
+}
+header .container .menu nav a:nth-child(1)
+{
+	color: #7aa814;
+}
+header .container .menu label
+{
+	line-height: 60px;
+	color: #7aa814;
+	font-size: 25px;
+	float: right;
+	display: block;
+	cursor: pointer;
+	margin-right: 40px;
+	margin-top: 10px;
+	z-index: 88;
+}
+header .container .menu .nav ul li
+{
+	list-style: none;
+	float: none;
+}
+header .container .menu .nav
+{
+	width: 100%;
+	display: none;
+	position:relative;
+	background: white;
+	margin-top: 10px;
+	border-top: 3px solid #7aa814;
+	box-shadow: 0px 2px 5px rgba(0,0,0,.1);
+	padding-bottom: 40px;
+	border-radius: 0 0 3px 3px;
+	margin: 10px 0px 0px 0px;
+}
+
+}
+@media screen and (max-width: 320px)
+{
+	content .article
+{
+	height: auto;
+	width: 100%;
+	position: relative;
+	background: #73A800;
+	z-index: 4;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+content .article .recyle
+{
+	float: left;
+	width: 100%;
+}
+content .article .recyle h3
+{
+	color: #fff;
+	text-align: left;
+	margin: 0 0% 0% 0%;
+	font-size: 23px;
+	font-weight: normal;
+	width: 100%;
+}
+
+content .article .recyle p
+{
+	color: #fff;
+	text-align: left;
+	padding-right: 25px;
+	width: 100%;
+	line-height: 1.6;
+	margin: 0;
+	font-size: 13px;
+		padding-top: 10px;
+}
+content .article .video
+{
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+}
+content .article .video .video
+{
+	height: auto;
+	width: 75%;
+	margin: 0 0%;
+	border: 25px solid #fff;
+	border-radius: 5px;
+
+}
+content .works .container .list-item
+{
+	height: auto;
+	width: 90%;
+	margin-top: 40px;
+	margin: 0 7%;
+}
+content .works .container .list-item div .right h5
+{
+	font-size: 17px;
+	width: 100%;
+	color: #5E5E5E;
+	font-weight: normal;
+}
+content .works .container .list-item div .right p
+{
+	font-size: 13px;
+	width: 100%;
+	color: #5E5E5E;
+}
+}
+
+
